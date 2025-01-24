@@ -1,1 +1,88 @@
-{"name":"t:sections.footer-group.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"image_nhNBfM":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo_svg_TM_6cc4329d-cc74-4f7a-8657-69d3f25aeff6.svg","image_width":90,"alignment":"left","link":"https:\/\/www.kixi.in","text":"KiXi transforms signage and business essentials into standout solutions that capture attention and elevate your brand’s presence."}},"footer-0":{"type":"link_list","settings":{"heading":"Get to Know Us","menu":"footer"}},"footer-1":{"type":"link_list","settings":{"heading":"Quick Shop","menu":"footer-menu-2"}},"footer-2":{"type":"link_list","settings":{"heading":"Need Help?","menu":"footer-menu-3"}}},"block_order":["image_nhNBfM","footer-0","footer-1","footer-2"],"custom_css":[".accordion__title {font-size: 18px; padding-top: 20px;}",".footer .list-menu__item--link:hover {color: white; transition: ease 0.2s;}",".caption-large {text-align: left; padding-right: 15px;}",".policies {display: none;}",".copyright__content {font-size: 1.4rem; text-align: bottom; padding-top: 15px;}",".footer__content-bottom {margin: 0 auto;}"],"settings":{"show_divider":false,"newsletter_enable":true,"newsletter_heading":"Stay in touch!","newsletter_text":"<p>Get insider access! Sign up for KiXi’s newsletter to receive special deals, new arrivals straight to your inbox.<\/p>","return_url":"","enable_follow_on_shop":false,"show_social":true,"social_heading":"Follow KiXi","enable_country_selector":false,"enable_language_selector":false,"payment_enable":true,"show_policy":false,"copyright_text":"All rights reserved.","colors_text":"#ffffff","colors_heading":"#ffffff","colors_link":"#949494","colors_border":"#949494","colors_background":"#000000","gradient_background":""}},"custom_liquid_mXAjUd":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"sub-footer\">\n  <div class=\"sub-footer__links\">\n    <ul>\n     \n      <li>\n        <a href=\"mailto:mail@kixi.in\" title=\"Email Us\">\n          <i class=\"fas fa-envelope\"><\/i> mail@kixi.in\n        <\/a>\n      <\/li>\n      <li>\n        <a href=\"https:\/\/wa.link\/skobcn\" title=\"Live Chat with Us\">\n          <i class=\"fa-brands fa-whatsapp\"><\/i> Live Chat\n        <\/a>\n      <\/li>\n      <li>\n        <a href=\"https:\/\/www.kixi.in\/pages\/faqs\" title=\"Visit Help Center\">\n          <i class=\"fas fa-question-circle\"><\/i> Help Center\n        <\/a>\n      <\/li>\n    <\/ul>\n  <\/div>\n<\/div>\n\n<style>\n  .sub-footer {\n    background-color: black;\n    padding: 15px 5%;\n    text-align: center;\n    border-top: 1px solid rgba(102, 102, 102, 0.4);\n\n  }\n.sub-footer__links {\nmax-width:1480px !important;\nmargin: 0 auto;\n}\n\n  .sub-footer__links ul {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    justify-content: space-around; \/* Distributes space evenly between links *\/\n    align-items: center;\n  }\n\n  .sub-footer__links li {\n    display: inline-block;\n  }\n\n  .sub-footer__links a {\n    text-decoration: none;\n    color: white;\n    font-weight: 400;\n    display: flex;\n    align-items: center;\n transition: ease 0.2s;\n  }\n\n  .sub-footer__links a i {\n    margin-right: 8px;\n  }\n\n  .sub-footer__links a:hover {\ncolor: #c09bf8;\n \n  }\n\n  \/* Media queries for responsiveness *\/\n  @media (max-width: 768px) { \/* Tablet view *\/\n    .sub-footer__links ul {\n      justify-content: space-around; \/* Adjust spacing for tablet view *\/\n    }\n  }\n\n  @media (max-width: 480px) { \/* Mobile view *\/\n    .sub-footer__links ul {\n      flex-direction: column; \/* Stack links vertically *\/\n      gap: 15px; \/* Add space between stacked links *\/\n    }\n\n    .sub-footer {\n      padding: 15px; \/* Reduce padding for smaller screens *\/\n    }\n\n    .sub-footer__links a {\n      justify-content: center; \/* Center align links for mobile view *\/\n    }\n  }\n<\/style>","full_width":true,"show_divider":false,"padding_top":0,"padding_bottom":0}}},"order":["footer","custom_liquid_mXAjUd"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "name": "t:sections.footer-group.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Get to Know Us",
+            "menu": "footer"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick Shop",
+            "menu": "footer-menu-2"
+          }
+        },
+        "footer-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Need Help?",
+            "menu": "footer-menu-3"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "footer-2"
+      ],
+      "custom_css": [],
+      "settings": {
+        "show_divider": false,
+        "newsletter_enable": true,
+        "newsletter_heading": "Stay in touch!",
+        "newsletter_text": "<p>Get insider access! Sign up for KiXi’s newsletter to receive special deals, new arrivals straight to your inbox.</p>",
+        "return_url": "",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "social_heading": "Follow KiXi",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "copyright_text": "All rights reserved.",
+        "colors_text": "#000000",
+        "colors_heading": "#000000",
+        "colors_link": "#000000",
+        "colors_border": "#c09bf8",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "image": "shopify://shop_images/logo_svg_TM_6cc4329d-cc74-4f7a-8657-69d3f25aeff6.svg",
+        "image_width": 80,
+        "alignment": "left",
+        "link": "/",
+        "text": "<p>KiXi transforms signage and business essentials into standout solutions that capture attention and elevate your brand’s presence.<br/><br/>Jyoti Complex, Rabindra Avenue Malda 732101, West Bengal, India</p>"
+      }
+    },
+    "custom_liquid_mXAjUd": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"sub-footer\">\n  <div class=\"sub-footer__links\">\n    <ul>\n     \n      <li>\n        <a href=\"mailto:mail@kixi.in\" title=\"Email Us\">\n          <i class=\"fas fa-envelope\"></i> mail@kixi.in\n        </a>\n      </li>\n      <li>\n        <a href=\"https://wa.link/skobcn\" title=\"Live Chat with Us\">\n          <i class=\"fa-brands fa-whatsapp\"></i> Live Chat\n        </a>\n      </li>\n      <li>\n        <a href=\"https://www.kixi.in/pages/faqs\" title=\"Visit Help Center\">\n          <i class=\"fas fa-question-circle\"></i> Help Center\n        </a>\n      </li>\n    </ul>\n  </div>\n</div>\n\n<style>\n  .sub-footer {\n    background-color: black;\n    padding: 15px 5%;\n    text-align: center;\n    border-top: 1px solid rgba(102, 102, 102, 0.4);\n\n  }\n.sub-footer__links {\nmax-width:1480px !important;\nmargin: 0 auto;\n}\n\n  .sub-footer__links ul {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    justify-content: space-around; /* Distributes space evenly between links */\n    align-items: center;\n  }\n\n  .sub-footer__links li {\n    display: inline-block;\n  }\n\n  .sub-footer__links a {\n    text-decoration: none;\n    color: white;\n    font-weight: 400;\n    display: flex;\n    align-items: center;\n transition: ease 0.2s;\n  }\n\n  .sub-footer__links a i {\n    margin-right: 8px;\n  }\n\n  .sub-footer__links a:hover {\ncolor: #c09bf8;\n \n  }\n\n  /* Media queries for responsiveness */\n  @media (max-width: 768px) { /* Tablet view */\n    .sub-footer__links ul {\n      justify-content: space-around; /* Adjust spacing for tablet view */\n    }\n  }\n\n  @media (max-width: 480px) { /* Mobile view */\n    .sub-footer__links ul {\n      flex-direction: column; /* Stack links vertically */\n      gap: 15px; /* Add space between stacked links */\n    }\n\n    .sub-footer {\n      padding: 15px; /* Reduce padding for smaller screens */\n    }\n\n    .sub-footer__links a {\n      justify-content: center; /* Center align links for mobile view */\n    }\n  }\n</style>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "custom_liquid_mXAjUd"
+  ]
+}
