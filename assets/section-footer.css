@@ -38,9 +38,9 @@
     border-top: 0.1rem solid rgb(var(--color-border));
   }
 
-  .footer--border-top .footer__content-top {
+  /* .footer--border-top .footer__content-top {
     padding-top: 0;
-  }
+  } */
 }
 
 .footer__content-top {
@@ -686,10 +686,15 @@ li.contact-icon a {
   .grid__item.footer__content-right {
     order: 1;
     width: calc(100% - var(--grid-horizontal-spacing) / 2);
+    /* border-top: 0.1rem solid rgb(var(--color-border)); */
   }
 
-  .grid__item.footer__content-left.footer__content-left--alt {
+  .grid__item.footer__content-left {
     order: 2;
     width: calc(100% - var(--grid-horizontal-spacing) / 2);
+    border-top: 0;
+  }
+  .footer--border-top {
+    border-top: 0.1rem solid rgb(var(--color-border));
   }
 }
