@@ -667,6 +667,9 @@ li.contact-icon a {
   .footer-block__details-content {
     margin-bottom: 2rem;
   }
+  .caption-large {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 750px) and (max-width: 1279px) {
   .footer__content-top > .grid {
